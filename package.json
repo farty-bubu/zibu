@@ -1,0 +1,13 @@
+{
+  "name": "zibu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github:farty-bubu/zibu.git",
+  "author": "farty-bubu <farty-bubu@mail.md>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  }
+}

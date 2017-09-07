@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="/static/css/custom.css">
+        <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
+        <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+      0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+      for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+    mixpanel.init("ff142bf9ef00bc0763552b4e8fa8a1c3");</script><!-- end Mixpanel -->
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row mt-25">
+                <a id="contact" class="waves-effect waves-light btn right blue accent-2 thin contact-btn">
+                    Contact us
+                </a>
+            </div>
+
+            <div class="row mt-150">
+                <div class="col s12 center">
+                    <h1 class="grey-text lighten-2 thin title">Is you business on Google?</h1>
+                    <h3 class="grey-text lighten-2 subtitle">
+                        If it is not, contact us. We add you for only $9.99/month
+                    </h3>
+                    <img class="materialboxed first-image mt-50"
+                         src="./static/img/search-rech-2-summary-skitch.jpg"
+                         alt="google-search">
+                </div>
+            </div>
+
+            <div class="row mt-150">
+                <div class="col s12 maps-background valign-wrapper">
+                    <h2 class=" title center maps-center">
+                        Local businesses or online website
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row mt-150">
+                <div class="col s12 center">
+                    <p class="grey-text lighten-2 thin big-title">
+                        5 days
+                    </p>
+                    <p class="grey-text lighten-2 subtitle">
+                        and your business is registered in Google.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-150">
+                <div class="col s7 mt-150">
+                    <h2 class="grey-text lighten-2 thin title">Have your online ID card</h2>
+                    <p class="grey-text lighten-2 subtitle thin">
+                        Broadcast your location, opening hours, contact information, customers' reviews, and so on.
+                    </p>
+                    <p class="grey-text lighten-2 subtitle thin">
+                        All in one place, accessible to everyone around the world.
+                    </p>
+                </div>
+                <div class="col s5">
+                    <img class="materialboxed first-image"
+                         src="/static/img/search-rech-2-id-skitch.jpg"
+                         alt="google-id">
+                </div>
+            </div>
+
+            <div class="row mt-150">
+
+                <h1 class="grey-text lighten-2 thin title center">Send us a request</h1>
+
+                <form class="col s6 offset-s3">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="full_name" type="text" class="validate">
+                            <label for="full_name">Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea class="materialize-textarea" name="comment" id="comment" cols="30" rows="5">
+                            </textarea>
+                            <label for="comment">Comment</label>
+                        </div>
+
+                        <div class="intput-field col s12">
+                            <p>What is it you need?</p>
+                            <p>
+                                <input type="checkbox" id="maps">
+                                <label for="maps">Maps</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="search">
+                                <label for="search">Search Engine</label>
+                            </p>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input class="waves-effect waves-light btn right blue accent-2 thin contact-btn"
+                                   type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer mt-100"></div>
+
+        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="/static/js/app.js"></script>
+    </body>
+</html>

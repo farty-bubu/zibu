@@ -1,0 +1,54 @@
+/*margin-top*/
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+/*First image*/
+.first-image {
+    width: 100%;
+}
+/* Fonts */
+.thin {
+    font-weight: 100;
+}
+
+.big-title {
+    font-size: 48px;
+    margin: 0;
+}
+.title {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+/*Contact btn*/
+.contact-btn {
+    text-transform: capitalize !important;
+}
+
+/*maps*/
+.maps-background {
+    background-image: url("/static/img/maps.png");
+    background-size: cover;
+    height: 400px;
+    filter: opacity(0.5)
+}
+
+.maps-center {
+    margin: auto auto;
+}
